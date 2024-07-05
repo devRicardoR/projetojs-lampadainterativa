@@ -23,3 +23,5 @@ function desligar(){
 lampadaApagada.addEventListener("dblclick", quebrar);
 btnLigar.addEventListener("click", ligar);
 btnDesligar.addEventListener("click", desligar);
+lampadaApagada.addEventListener("mouseover", ligar);
+lampadaApagada.addEventListener("mouseleave", desligar);
